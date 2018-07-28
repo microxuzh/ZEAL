@@ -1,5 +1,5 @@
 *.py[cod]
-
+*.json
 test.db
 test.txt
 sina.html
@@ -10,6 +10,7 @@ sina.html
 # Packages
 *.egg
 *.egg-info
+.vscode
 dist
 build
 eggs
