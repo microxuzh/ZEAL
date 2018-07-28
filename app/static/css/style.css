@@ -5,11 +5,13 @@ body {
    
 }
 
-.vue-class {
-    color: blueviolet;
-    font-size: x-large;
+span {
+    font-size: xx-large;
+    font-weight: bold;
+    font-style: italic;
+    color: red;
 }
 
 h1 {
-    color: brown;
+    color: coral; 
 }

@@ -45,6 +45,7 @@ Thumbs.db
 dist
 MANIFEST
 .vscode/*
+instance/
 
 # Translations
 *.mo
