@@ -1,5 +1,5 @@
 from flask import Flask
-import config
+from config import configure_app
 import os
 
 basedir = os.path.abspath(os.path.dirname(__file__))
@@ -9,7 +9,7 @@ app = Flask(
     instance_path=os.path.join(os.path.abspath(os.curdir), 'instance'),
     instance_relative_config=True)
 
-app.config.from_object('config')
-app.config.from_pyfile('config.cfg', silent=True)
+configure_app(app)
+
 
 from app import views

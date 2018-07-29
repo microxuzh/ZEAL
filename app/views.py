@@ -4,7 +4,8 @@ from app import app
 @app.route('/')
 def index():
     msg = 'Welcome to my Flask world!'
-    return render_template('index.html', title='', msg=msg)
+    env = app.config['ENV']
+    return render_template('index.html', title='', msg=msg, env=env)
 
 
 @app.route('/vue')
