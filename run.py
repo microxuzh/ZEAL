@@ -6,13 +6,23 @@ import logging.config
 
 # logging.basicConfig(
 #     filename='example.log',
-#     level=logging.WARNING,
+#     level=logging.INFO,
 #     format=
 #     '%(asctime)s %(levelname)s: %(message)s', datefmt='%d/%b/%y %I:%M:%S %p')
-logging.config.fileConfig('logger.conf')
-logger = logging.getLogger('infoLogger')
-logger.info('This is info message')
-logger.error('This is error message')
+
+
+logging.config.fileConfig('logging.conf')
+# logger = logging.getLogger('example')
+#"application" code
+# logger.debug("debug message")
+# logger.info("info message")
+# logger.warn("warn message")
+# logger.error("error message")
+# logger.critical("critical message")
+
+# logHello = logging.getLogger("hello")
+# logHello.info("Hello world!")
+
 
 # logging.debug('This message should go to the log file')
 # logging.info('So should this')

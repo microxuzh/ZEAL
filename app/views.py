@@ -5,7 +5,8 @@ import logging
 def index():
     msg = "Welcome to my Flask world!"
     env = app.config['ENV']
-    logging.warning('Started from index.')
+    logger = logging.getLogger('ZEAL')
+    logger.warn('This is from index handler.')
     return render_template('index.html', title='', msg=msg, env=env)
 
 
