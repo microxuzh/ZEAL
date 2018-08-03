@@ -143,3 +143,5 @@
 [03/Aug/18 11:34:59 PM](INFO)werkzeug : 127.0.0.1 - - [03/Aug/2018 23:34:59] "GET /static/css/style.css HTTP/1.1" 304 -
 [03/Aug/18 11:34:59 PM](INFO)werkzeug : 127.0.0.1 - - [03/Aug/2018 23:34:59] "GET / HTTP/1.1" 200 -
 [03/Aug/18 11:34:59 PM](INFO)werkzeug : 127.0.0.1 - - [03/Aug/2018 23:34:59] "GET /static/css/style.css HTTP/1.1" 304 -
+[03/Aug/18 11:40:05 PM](WARNING)werkzeug :  * Debugger is active!
+[03/Aug/18 11:40:05 PM](INFO)werkzeug :  * Debugger PIN: 405-939-684
